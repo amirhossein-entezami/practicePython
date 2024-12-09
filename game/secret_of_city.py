@@ -16,6 +16,7 @@ print('''                         _._
  |      |   | |      |   | |       |  |   |     |  |  |   |   |      |
  |      |   | |      |   | |       |  |   |     |  |  |   |   |      |
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~''')
+# You can find the treasure in this city.
 print("Your mission is to find the treasure.")
 street = input("You're at a cross street. Where do you want to go? 'left' or 'right' ").lower()
 if street == 'right':
