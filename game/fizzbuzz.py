@@ -7,4 +7,4 @@ for fizzbuzz in range(1, 101):
     elif fizzbuzz % 5 == 0: # check 5 to 0
         print("buzz")
     else:
-        print(fizzbuzz)
+        print("fizzbuzz")
