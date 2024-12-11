@@ -1,4 +1,4 @@
-# version 2 of hangman game
+# version 3 of hangman game
 
 # import random library
 import random
@@ -18,3 +18,8 @@ display = []
 for _ in range(len(chosen_word)):
     display.append("_")
 print(display)
+
+# give guess user 
+guess = input("Guess a word: ").lower()
+      
+      
