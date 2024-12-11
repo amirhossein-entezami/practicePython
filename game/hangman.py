@@ -1,4 +1,4 @@
-# version 3 of hangman game
+# version 4 of hangman game
 
 # import random library
 import random
@@ -22,4 +22,8 @@ print(display)
 # give guess user 
 guess = input("Guess a word: ").lower()
       
-      
+# check guess user in chosen_word
+for position in range(len(chosen_word)):
+   letter = chosen_word[position]
+   if letter == guess:
+      display[position] = letter
