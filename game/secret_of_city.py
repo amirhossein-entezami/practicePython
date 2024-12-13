@@ -31,3 +31,4 @@ elif street == 'left':
             print('You are Win!!')
         else:
             print('You are game over!')
+# after check all of the ways you win!
