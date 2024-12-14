@@ -1,11 +1,57 @@
-# version 4 of hangman game
-
 # import random library
 import random
 
+stages = [""" 
+        _______
+     |/      | 
+     |      (_)
+     |      \|/
+     |       |
+     |      / /
+     |
+  ___|___  
+  """, """ 
+        _______
+     |/      |
+     |      (_)
+     |      \|/
+     |       |
+     |      
+     |
+  ___|___
+  """, """ 
+      _______
+     |/      |
+     |      (_)
+     |      \|/
+     |       
+     |      
+     |
+  ___|___
+  """, """   
+        _______
+     |/      |
+     |      (_)
+     |      
+     |       
+     |      
+     |
+  ___|___
+  """, """        
+        _______
+     |/      |
+     |      
+     |      
+     |       
+     |      
+     |
+  ___|___  
+  """]
+
 # make list by name word_list
 word_list = ["aardvark", "baboon", "camel"]
-
+# Set 'lives' to equal 4.
+lives = 4
 # choose word in word_list
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
@@ -31,3 +77,14 @@ while end_of_game == False:
         letter = chosen_word[position]
         if letter == guess:
             display[position] = letter
+
+        # Then reduce 'lives' by 1.
+    # If lives goes down to 0 then the game should stop and it should print "you lose."
+    if guess not in chosen_word:
+        print(f"You guessed {guess}, that's not in the word. You lose a life.")
+        lives -= 1
+        print(stages[lives])
+        print(lives)
+        if lives == 0:
+            print("You lose!")
+            break
