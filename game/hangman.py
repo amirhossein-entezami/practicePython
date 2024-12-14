@@ -88,3 +88,7 @@ while end_of_game == False:
         if lives == 0:
             print("You lose!")
             break
+    
+    if "_" not in display:
+        end_of_game = True
+        print("You win!")
