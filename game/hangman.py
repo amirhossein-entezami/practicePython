@@ -27,3 +27,5 @@ for position in range(len(chosen_word)):
    letter = chosen_word[position]
    if letter == guess:
       display[position] = letter
+# letters input() the chosen_word and 'display' has no more blanks ("_"). Then you can tell the user they've won.
+end_of_game = False
