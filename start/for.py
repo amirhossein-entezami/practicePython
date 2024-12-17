@@ -8,3 +8,7 @@ receive_user = int(input("add number: "))
 for i in range(0, receive_user):
     print(i)  # in this way we print one by one item
 
+receive_user = input("please enter your name: ")
+
+for i in receive_user:
+    print(i) # in this section print one by one character your name 
