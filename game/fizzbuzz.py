@@ -5,6 +5,6 @@ for fizzbuzz in range(1, 101):
     elif fizzbuzz % 3 == 0: # check 3 to 0
         print("Fizz")
     elif fizzbuzz % 5 == 0: # check 5 to 0
-        print("buzz")
+        print("Buzz")
     else:
-        print("fizzbuzz")
+        print("FizzBuzz")
