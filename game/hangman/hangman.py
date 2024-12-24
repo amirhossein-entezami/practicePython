@@ -1,6 +1,8 @@
 # import random library
 import random
+# put art of hang man in this file 
 import hangman_art 
+
 # make list by name word_list
 word_list = ["aardvark", "baboon", "camel"]
 # Set 'lives' to equal 4.
