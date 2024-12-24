@@ -1,53 +1,6 @@
 # import random library
 import random
-
-stages = [""" 
-        _______
-     |/      | 
-     |      (_)
-     |      \|/
-     |       |
-     |      / /
-     |
-  ___|___  
-  """, """ 
-        _______
-     |/      |
-     |      (_)
-     |      \|/
-     |       |
-     |      
-     |
-  ___|___
-  """, """ 
-      _______
-     |/      |
-     |      (_)
-     |      \|/
-     |       
-     |      
-     |
-  ___|___
-  """, """   
-        _______
-     |/      |
-     |      (_)
-     |      
-     |       
-     |      
-     |
-  ___|___
-  """, """        
-        _______
-     |/      |
-     |      
-     |      
-     |       
-     |      
-     |
-  ___|___  
-  """]
-
+import hangman_art 
 # make list by name word_list
 word_list = ["aardvark", "baboon", "camel"]
 # Set 'lives' to equal 4.
@@ -83,7 +36,7 @@ while end_of_game == False:
     if guess not in chosen_word:
         print(f"You guessed {guess}, that's not in the word. You lose a life.")
         lives -= 1
-        print(stages[lives])
+        print(hangman_art.stages[lives])
         print(lives)
         if lives == 0:
             print("You lose!")
