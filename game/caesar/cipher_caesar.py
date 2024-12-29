@@ -28,7 +28,6 @@ text = input("Type your message: \n").lower()
 shift = int(input("Type the shift number: \n"))
 
 if direction == "encode":
-    # output ->
-    pass
+    encrypt(plain_text=text, shift_amount=shift)
 elif direction == "decode":
     pass
