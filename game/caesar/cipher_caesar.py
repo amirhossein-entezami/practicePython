@@ -12,6 +12,10 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f'
     , 'o', 'p', 'q', 'r', 's', 't'
     , 'u', 'v', 'w', 'x', 'y', 'z']
 
+
+def encrypt(plain_text, shift_amount):
+    pass
+
 # Give input user for start the program
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt: \n")
 text = input("Type your message: \n").lower()
