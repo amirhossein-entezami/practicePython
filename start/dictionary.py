@@ -16,3 +16,11 @@ programming_dictionary["Loop"] = "The action of doing something over and over ag
 # Create an empty dictionary
 empty_dictionary = {}
 
+# Wipe an existing dictionary
+# programming_dictionary = {}
+# print(programming_dictionary)
+
+# Edit an item in a dictionary
+programming_dictionary["Bug"] = "A moth in your computer."
+# print(programming_dictionary)
+
