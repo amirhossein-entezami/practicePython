@@ -11,21 +11,21 @@ symbols = ["_", "#", "$", "%", "&", "(", ")", "*", "+"]
 
 print("Weclome to the PyPassword Generator! ")
 
-nr_letters = int(input("How many letter would you like in your password?\n"))
-nr_symbols = int(input("How many symbols would you like?\n"))
-nr_numbers = int(input("How many numbers would you like?\n"))
+receive_letters = int(input("How many letter would you like in your password?\n"))
+receive_symbols = int(input("How many symbols would you like?\n"))
+receive_numbers = int(input("How many numbers would you like?\n"))
 
 # Eazy Level
 
 password = ""
 
-for char in range(1, nr_letters + 1):
+for char in range(1, receive_letters + 1):
     password += random.choice(letters)
 
-for char in range(1, nr_symbols + 1):
+for char in range(1, receive_symbols + 1):
     password += random.choice(symbols)
 
-for char in range(1, nr_numbers + 1):
+for char in range(1, receive_numbers + 1):
     password += random.choice(numbers)
 
 print(f"Your new password in 'Eazy Level' is=> {password}")
@@ -33,13 +33,13 @@ print(f"Your new password in 'Eazy Level' is=> {password}")
 # Hard Level
 password_list = []
 
-for char in range(1, nr_letters + 1):
+for char in range(1, receive_letters+ 1):
     password_list.append(random.choice(letters))
 
-for char in range(1, nr_symbols + 1):
+for char in range(1, receive_symbols + 1):
     password_list.append(random.choice(symbols))
 
-for char in range(1, nr_numbers + 1):
+for char in range(1, receive_numbers + 1):
     password_list.append(random.choice(numbers))
 
 # This is extra for learning
