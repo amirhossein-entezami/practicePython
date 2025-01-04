@@ -14,3 +14,16 @@ def calculator(num_1, num_2, operator):
 
     elif operator == '/':
         return num_1 / num_2
+
+receive_num_1 = int(input("What's the first number? "))
+print("""
++
+-
+*
+/
+""")
+receive_operator = input("Pick an operation: ")
+receive_num_2 = int(input("What's the second number? "))
+calc = calculator(num_1=receive_num_1, num_2=receive_num_2, operator=receive_operator)
+
+print(f"{float(receive_num_1)} {receive_operator} {float(receive_num_2)} = {float(calc)}")
