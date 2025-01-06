@@ -9,3 +9,8 @@ def user():
 def computer():
     pass
 
+
+if receive_user < 17:
+    pass
+else:
+    pass
