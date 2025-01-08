@@ -12,5 +12,5 @@ def computer():
 
 if receive_user < 17:
     pass
-else:
+elif receive_user > 21:
     pass
