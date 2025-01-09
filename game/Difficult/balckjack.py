@@ -1,6 +1,6 @@
 # make new game with balckjack
 
-cards = {11 , 10}
+cards = {11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10}
 
 receive_user = int(input("receive user: "))
 def user():
