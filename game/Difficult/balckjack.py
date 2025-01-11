@@ -1,1 +1,5 @@
-# clear the file and rewrite 
+# BlackJack
+# Import Library
+import random
+import clear
+
