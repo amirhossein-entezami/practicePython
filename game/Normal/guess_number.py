@@ -29,3 +29,4 @@ while should_continue:
     receive_user = int(input("please enter number: "))
     receive_mode = input("please enter mode, easy - hard - difficulty: ")
 
+# work and new file after
