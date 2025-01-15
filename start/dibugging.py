@@ -49,10 +49,10 @@ elif year >= 1994:
 ########################################
 
 # Fix the Errors
-# False-------------------------
-age = input("How old are you? ")
-if age > 18:
-print("you can drive at age {age}.")
+# # False-------------------------
+# age = input("How old are you? ")
+# if age > 18:
+# print("you can drive at age {age}.")
 
 # True--------------------------
 age = int(input("How old are you? "))
