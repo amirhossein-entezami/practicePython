@@ -21,3 +21,4 @@ def calculate_score(cards):
 
     return sum(cards)
 
+
