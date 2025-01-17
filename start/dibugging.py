@@ -83,11 +83,22 @@ print(total_words)
 
 # Use Debugger
 # False------------------
-def mutate(a_list):
-    b_list = []
-    for item in a_list:
-        new_item = item * 2
-    b_list.append(new_item)
-    print(b_list)
+# def mutate(a_list):
+#     b_list = []
+#     for item in a_list:
+#         new_item = item * 2
+#     b_list.append(new_item)
+#     print(b_list)
 
-mutate([1,2,3,5,8,13])
+# mutate([1,2,3,5,8,13])
+
+
+# True--------------
+# def mutate(a_list):
+#     b_list = []
+#     for item in a_list:
+#         new_item = item * 2
+#         b_list.append(new_item)
+#     print(b_list)
+#
+# mutate([1,2,3,5,8,13])
