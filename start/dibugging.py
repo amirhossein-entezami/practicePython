@@ -120,3 +120,20 @@ print(total_words)
 #     print("The number is an even number.")
 # else:
 #     print("The number is an odd number.")
+
+##############################################
+
+# Leap year Debugging
+# False-------------
+year = input("Which year do you want to check? ")
+
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("is a leap year.")
+        else:
+            print("is not a leap year.")
+    else:
+        print("Leap Year.")
+else:
+    print("Not a leap year.")
