@@ -1,7 +1,6 @@
 # BlackJack
 # Import Library
 import random
-# import clear
 
 def deal_card():
     """Returns a random card from the deck."""
