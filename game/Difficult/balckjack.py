@@ -19,5 +19,3 @@ def calculate_score(cards):
         cards.append(1)
 
     return sum(cards)
-
-
