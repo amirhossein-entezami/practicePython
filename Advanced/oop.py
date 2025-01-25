@@ -20,3 +20,5 @@ print(my_screen.canvheight)
 timmy.shape("turtle")
 timmy.color("coral")
 timmy.forward(100)
+
+my_screen.exitonclick()
