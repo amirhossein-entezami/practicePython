@@ -10,6 +10,9 @@ timmy.shape("turtle")
 #    |           |
 # car.speed
 
-# my_screen = Screen()
-# print(my_screen.canvheight)
+my_screen = Screen()
+print(my_screen.canvheight)
 
+#( Object )( methods )
+#    |         |
+# car.stop()
