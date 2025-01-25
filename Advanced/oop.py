@@ -16,3 +16,7 @@ print(my_screen.canvheight)
 #( Object )( methods )
 #    |         |
 # car.stop()
+
+timmy.shape("turtle")
+timmy.color("coral")
+timmy.forward(100)
