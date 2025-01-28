@@ -1,1 +1,2 @@
-# this file for coffee maker
+class CoffeeMaker:
+    pass
