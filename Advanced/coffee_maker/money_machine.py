@@ -1,1 +1,3 @@
-# check money
+class MoneyMachine:
+    pass
+
