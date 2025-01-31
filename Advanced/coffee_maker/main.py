@@ -12,4 +12,4 @@ is_on = True
 coffee_maker.report()
 money_machine.report()
 
-# check the file
+
