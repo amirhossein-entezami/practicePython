@@ -65,5 +65,4 @@ while game_should_continue:
 
 # Clear the screen between round.
 
-
-
+# check higher_lower
