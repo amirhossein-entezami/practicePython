@@ -13,3 +13,5 @@ if height > 120:
         print("You should pay $12.")
 else:
     print("Your can't ride the rollercoaster!")
+    
+# check rollercoaster
