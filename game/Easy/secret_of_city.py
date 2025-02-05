@@ -32,3 +32,5 @@ elif street == 'left':
         else:
             print('You are game over!')
 # after check all of the ways you win!
+
+# check secret_of_city
