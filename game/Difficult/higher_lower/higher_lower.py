@@ -60,9 +60,3 @@ while game_should_continue:
         game_should_continue = False
         print(f"Sorry, that's wrong. Final score {score}.")
 
-
-# Making account at position B become the next account at position A.
-
-# Clear the screen between round.
-
-# check higher_lower
