@@ -3,4 +3,3 @@
 list = ["hello", "amir"]
 
 print(list)
-# check the list
