@@ -1,3 +1,4 @@
+# function
 def my_function(a, b):
     c = a + b - a ** 2
     return c
