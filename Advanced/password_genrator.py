@@ -46,6 +46,7 @@ for char in range(1, receive_numbers + 1):
 print(password_list)
 random.shuffle(password_list)
 print(password_list)
+
 # -------------------------
 
 password = ""
@@ -53,3 +54,5 @@ for char in password_list:
     password += char
 
 print(f"Your new password in 'Hard Level' is=> {password}")
+
+# check
