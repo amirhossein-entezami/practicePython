@@ -54,5 +54,3 @@ for char in password_list:
     password += char
 
 print(f"Your new password in 'Hard Level' is=> {password}")
-
-# check
