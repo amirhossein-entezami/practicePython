@@ -1,5 +1,4 @@
 # make a calculator
-
 # This is my practice
 # Calculator
 def calculator(num_1, num_2, operator):
