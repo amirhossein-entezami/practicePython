@@ -7,3 +7,8 @@ timmy = Turtle()
 
 # Choose The shape of Turtle
 timmy.shape("turtle")
+
+
+# end of the project
+screen = Screen()
+screen.exitonclick()
