@@ -8,6 +8,8 @@ timmy = Turtle()
 # Choose The shape of Turtle
 timmy.shape("turtle")
 
+# Choose Color
+timmy.color("red")
 
 # end of the project
 screen = Screen()
