@@ -1,6 +1,9 @@
 # Import Library
-import turtle
+# import turtle
 from Turtle import Turtle, Screen
 
 # Start the project with Turtle
 timmy = Turtle()
+
+# Choose The shape of Turtle
+timmy.shape("turtle")
