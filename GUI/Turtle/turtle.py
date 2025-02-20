@@ -1,6 +1,7 @@
 # Import Library
 # import turtle
 from Turtle import Turtle, Screen
+import random
 
 # Start the project with Turtle
 timmy = Turtle()
@@ -44,11 +45,16 @@ for _ in range(num_sides):
 # This is full package with color
 colors = ['CornFlowerBlue', 'IndianRed', 'DeepSkyBlue', 'LightSeaGreen', 'LightSalmon']
 
-def draw_shape(num_sides):
-    angle = 360 / num_sides
-    for _ in range(num_sides):
-        timmy.forward(100)
-        timmy.right(angle)
+# def draw_shape(num_sides):
+#     angle = 360 / num_sides
+#     for _ in range(num_sides):
+#         timmy.forward(100)
+#         timmy.right(angle)
+
+
+for shape_side_n in range(3, 11):
+    timmy.color(random.choice(colors))
+    draw_shape(shape_side_n)
 
 # end of the project
 screen = Screen()
