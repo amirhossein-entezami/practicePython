@@ -36,11 +36,19 @@ timmy.color("red")
 
 # This is pentagon
 num_sides = 5
-
 for _ in range(num_sides):
     angle = 360 / num_sides
     timmy.forward(100)
     timmy.right(angle)
+
+# This is full package with color
+colors = ['CornFlowerBlue', 'IndianRed', 'DeepSkyBlue', 'LightSeaGreen', 'LightSalmon']
+
+def draw_shape(num_sides):
+    angle = 360 / num_sides
+    for _ in range(num_sides):
+        timmy.forward(100)
+        timmy.right(angle)
 
 # end of the project
 screen = Screen()
