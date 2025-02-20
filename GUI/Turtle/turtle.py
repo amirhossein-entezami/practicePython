@@ -32,6 +32,16 @@ timmy.color("red")
 #     timmy.forward(10)
 #     timmy.pendown()
 
+# TODO- Draw a triangle, square, pentagon, hexagon, heptagon, octagon, nonagon and decagon
+
+# This is pentagon
+num_sides = 5
+
+for _ in range(num_sides):
+    angle = 360 / num_sides
+    timmy.forward(100)
+    timmy.right(angle)
+
 # end of the project
 screen = Screen()
 screen.exitonclick()
