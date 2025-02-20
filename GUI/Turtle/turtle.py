@@ -26,11 +26,11 @@ timmy.color("red")
 #     timmy.right(90)
 
 # Tutle go forward with Dash way
-for _ in range(10):
-    timmy.forward(10)
-    timmy.penup()
-    timmy.forward(10)
-    timmy.pendown()
+# for _ in range(10):
+#     timmy.forward(10)
+#     timmy.penup()
+#     timmy.forward(10)
+#     timmy.pendown()
 
 # end of the project
 screen = Screen()
