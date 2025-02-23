@@ -63,6 +63,7 @@ direction = [0, 90, 180, 270]
 timmy.pensize(15)
 timmy.speed("fast")
 
+timmy.colormode(255)
 
 # end of the project
 screen = Screen()
