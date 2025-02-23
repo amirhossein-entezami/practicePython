@@ -54,7 +54,7 @@ colors = ['CornFlowerBlue', 'IndianRed', 'DeepSkyBlue', 'LightSeaGreen', 'LightS
 
 for shape_side_n in range(3, 11):
     timmy.color(random.choice(colors))
-    draw_shape(shape_side_n)
+    # draw_shape(shape_side_n)
 
 # end of the project
 screen = Screen()
