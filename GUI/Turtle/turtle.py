@@ -58,6 +58,11 @@ for shape_side_n in range(3, 11):
 
 # Draw a Random Walk
 
+colors = ['CornFlowerBlue', 'IndianRed', 'DeepSkyBlue', 'LightSeaGreen', 'LightSalmon']
+
+
+
+
 
 # end of the project
 screen = Screen()
