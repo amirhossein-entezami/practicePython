@@ -56,6 +56,9 @@ for shape_side_n in range(3, 11):
     timmy.color(random.choice(colors))
     # draw_shape(shape_side_n)
 
+# Draw a Random Walk
+
+
 # end of the project
 screen = Screen()
 screen.exitonclick()
