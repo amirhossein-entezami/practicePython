@@ -60,7 +60,7 @@ for shape_side_n in range(3, 11):
 
 colors = ['CornFlowerBlue', 'IndianRed', 'DeepSkyBlue', 'LightSeaGreen', 'LightSalmon']
 direction = [0, 90, 180, 270]
-
+timmy.pensize(15)
 
 
 
