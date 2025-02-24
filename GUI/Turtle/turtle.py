@@ -65,6 +65,13 @@ timmy.speed("fast")
 
 timmy.colormode(255)
 
+def random_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    randomm_color = (r, g, b)
+    return randomm_color
+
 # end of the project
 screen = Screen()
 screen.exitonclick()
