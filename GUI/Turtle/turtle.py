@@ -72,6 +72,10 @@ def random_color():
     randomm_color = (r, g, b)
     return randomm_color
 
+directions = [0, 90, 180, 270]
+timmy.pensize(15)
+timmy.speed("fastest")
+
 # end of the project
 screen = Screen()
 screen.exitonclick()
