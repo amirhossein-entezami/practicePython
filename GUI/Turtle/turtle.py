@@ -36,14 +36,14 @@ timmy.color("red")
 # TODO- Draw a triangle, square, pentagon, hexagon, heptagon, octagon, nonagon and decagon
 
 # This is pentagon
-num_sides = 5
-for _ in range(num_sides):
-    angle = 360 / num_sides
-    timmy.forward(100)
-    timmy.right(angle)
+# num_sides = 5
+# for _ in range(num_sides):
+#     angle = 360 / num_sides
+#     timmy.forward(100)
+#     timmy.right(angle)
 
 # This is full package with color
-colors = ['CornFlowerBlue', 'IndianRed', 'DeepSkyBlue', 'LightSeaGreen', 'LightSalmon']
+# colors = ['CornFlowerBlue', 'IndianRed', 'DeepSkyBlue', 'LightSeaGreen', 'LightSalmon']
 
 # def draw_shape(num_sides):
 #     angle = 360 / num_sides
@@ -52,8 +52,8 @@ colors = ['CornFlowerBlue', 'IndianRed', 'DeepSkyBlue', 'LightSeaGreen', 'LightS
 #         timmy.right(angle)
 
 
-for shape_side_n in range(3, 11):
-    timmy.color(random.choice(colors))
+# for shape_side_n in range(3, 11):
+#     timmy.color(random.choice(colors))
     # draw_shape(shape_side_n)
 
 # Draw a Random Walk
