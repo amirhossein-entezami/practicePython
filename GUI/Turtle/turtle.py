@@ -84,3 +84,5 @@ for _ in range(200):
 # end of the project
 screen = Screen()
 screen.exitonclick()
+
+# check
