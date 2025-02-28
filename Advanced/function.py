@@ -15,3 +15,4 @@ while user > 0:
 print(f"{user} is less than 6")
 
 # we can use while and func in one scop
+# check
