@@ -1,0 +1,1 @@
+""" Barnamei ke kar tabe ghdr motlagh ra anjam midahad! """
