@@ -4,3 +4,5 @@ if 10 <= recive_user <= 99:
     print("Bale 2 raghami hast!")
 else:
     print("Na 2 raghami nist!")
+    
+    # check
