@@ -1,0 +1,1 @@
+""" Barnamei benevisid 3 add migire miangin hesab mikone """
