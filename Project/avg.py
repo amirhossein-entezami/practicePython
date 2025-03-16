@@ -1,2 +1,6 @@
 """ Barnamei benevisid 3 add migire miangin hesab mikone """
 print("3 add ba fasle bezanid miangin bedam")
+
+num_1 = int(input("enter add 1: "))
+num_2 = int(input("enter add 2: "))
+num_3 = int(input("enter add 3: "))
