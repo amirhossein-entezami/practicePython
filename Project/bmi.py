@@ -2,3 +2,5 @@
 age BMI kamtar mosavi 18 bod bege kambod vazn age bein 18.5 ta 24.5 bod bege
 vzn salem age bein 24.5 ta 30 bod bege ezafe vazn bishtar az 30 khatr"""
 
+height = int(input("Ghad khod ro vared konid(ex. 178): "))
+weight = int(input("Vazn khod ro vared konid(ex. 90): "))
