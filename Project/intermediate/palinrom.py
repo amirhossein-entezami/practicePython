@@ -14,3 +14,5 @@ else:
             print("No it's not inverse")
             print(f"inverse: {recevie_char_inverse}")
         recevie_char = input("please eneter name: ")
+        
+        # check
