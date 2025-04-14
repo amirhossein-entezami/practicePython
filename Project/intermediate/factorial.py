@@ -1,0 +1,1 @@
+"""barnamei ke factorial add ro namayesh bede"""
