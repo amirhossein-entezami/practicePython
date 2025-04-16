@@ -10,3 +10,4 @@ while receive_user_a != 10:
     receive_user_j = input("please enter a jensiat: ")
     print(f"{receive_user_n} , {receive_user_f}, {receive_user_a}, {receive_user_j}")
     
+    # check the file
