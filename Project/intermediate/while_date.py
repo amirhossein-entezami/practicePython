@@ -2,3 +2,5 @@
 va eltelat ra joda joda namayesh midahad khat aval etelat nafar aval
 khatdovom etelat nafar dovom"""
 
+receive_user_a = int(input("please enter a sen: "))
+
