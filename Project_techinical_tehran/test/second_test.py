@@ -4,5 +4,3 @@ import math
 receive_user = int(input("Enter a number for sqrt: "))
 square_root = int(math.sqrt(receive_user))
 print(f"jazre addet-> {square_root}")
-
-# check the role
