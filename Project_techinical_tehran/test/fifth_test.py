@@ -8,3 +8,5 @@ elif len(receive_user) > 2:
     print("bisar az 2 ragham")
 elif len(receive_user) == 2:
     print("2 raghami hast")
+
+# check
