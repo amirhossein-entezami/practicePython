@@ -9,3 +9,6 @@ print("3) Replace Student") # kolesh namayesh dade beshe - yek record entekhab b
 print("4) Show Information") # neshon dadan etelwat - miad behet shomare desnshjo mide!    
 print("5) Find Student") # neshon dadan etelwat - miad behet shomare desnshjo mide!
 print("6) Exit\n") # khoroj az barnameh
+
+# this is input for 
+press = input("kodom option?(add vared konid): ")
