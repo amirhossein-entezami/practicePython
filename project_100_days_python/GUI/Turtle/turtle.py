@@ -1,4 +1,4 @@
-from Turtle import Turtle, Screen
+from turtle import Turtle, Screen
 import random
 
 # Start the project with Turtle
