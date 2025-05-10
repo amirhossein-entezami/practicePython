@@ -59,9 +59,9 @@ screen.colormode(255)
 screen.bgcolor("black")  # Optional: Set background color
 
 # Set up Turtle properties
-timmy.shape("turtle")
-timmy.pensize(15)
-timmy.speed("fastest")
+# timmy.shape("turtle")
+# timmy.pensize(15)
+# timmy.speed("fastes
 
 # Function to generate a random color
 # def random_color():
