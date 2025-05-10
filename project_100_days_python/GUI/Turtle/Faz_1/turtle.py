@@ -72,11 +72,11 @@ def random_color():
     return random_color
 
 # Random walk logic
-directions = [0, 90, 180, 270]
-for _ in range(200):
-    timmy.color(random_color())
-    timmy.forward(30)
-    timmy.setheading(random.choice(directions))
+# directions = [0, 90, 180, 270]
+# for _ in range(200):
+#     timmy.color(random_color())
+#     timmy.forward(30)
+#     timmy.setheading(random.choice(directions))
 
 # Wait for user to close the window
 screen.exitonclick()
