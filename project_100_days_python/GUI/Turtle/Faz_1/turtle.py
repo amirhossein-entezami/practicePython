@@ -53,10 +53,10 @@ import random
 # timmy.speed("fast")
 
 # Initialize Turtle and Screen
-timmy = Turtle()
-screen = Screen()
-screen.colormode(255)
-screen.bgcolor("black")  # Optional: Set background color
+# timmy = Turtle()
+# screen = Screen()
+# screen.colormode(255)
+# screen.bgcolor("black")  # Optional: Set background color
 
 # Set up Turtle properties
 # timmy.shape("turtle")
