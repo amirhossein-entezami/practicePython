@@ -2,13 +2,13 @@ from turtle import Turtle, Screen
 import random
 
 # Square Shape -> long way
-# timmy.forward(100)
-# timmy.right(90)
-# timmy.forward(100)
-# timmy.right(90)
-# timmy.forward(100)
-# timmy.right(90)
-# timmy.forward(100)
+timmy.forward(100)
+timmy.right(90)
+timmy.forward(100)
+timmy.right(90)
+timmy.forward(100)
+timmy.right(90)
+timmy.forward(100)
 
 # Square Shape -> short way
 # for _ in range(4):
