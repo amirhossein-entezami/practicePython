@@ -11,5 +11,11 @@ screen.bgcolor("black")
 screen.title("My Snake Game")
 screen.tracer(0)
 
+# variable for turtle
+snake = Snake()
+food = Food()
+scoreboard = Scoreboard()
+
+
 # end of the program
 screen.exitonclick()
