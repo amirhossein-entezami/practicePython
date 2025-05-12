@@ -11,9 +11,9 @@ import random
 # timmy.forward(100)
 
 # Square Shape -> short way
-for _ in range(4):
-    timmy.forward(100)
-    timmy.right(90)
+# for _ in range(4):
+#     timmy.forward(100)
+#     timmy.right(90)
 
 # Tutle go forward with Dash way
 # for _ in range(10):
