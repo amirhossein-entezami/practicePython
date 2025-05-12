@@ -16,6 +16,12 @@ snake = Snake()
 food = Food()
 scoreboard = Scoreboard()
 
+# add screen listener for turtle
+screen.listen()
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down, "Down")
+screen.onkey(snake.right, "Right")
+screen.onkey(snake.left, "Left")
 
 # end of the program
 screen.exitonclick()
