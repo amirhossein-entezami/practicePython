@@ -1,0 +1,1 @@
+# create new game by name ping pong
