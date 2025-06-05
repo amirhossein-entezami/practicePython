@@ -78,5 +78,4 @@ import random
 #     timmy.forward(30)
 #     timmy.setheading(random.choice(directions))
 
-# Wait for user to close the window
 screen.exitonclick()
