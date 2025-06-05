@@ -78,4 +78,5 @@ import random
 #     timmy.forward(30)
 #     timmy.setheading(random.choice(directions))
 
+# end of the program
 screen.exitonclick()
