@@ -1,5 +1,6 @@
 from turtle import Turtle
 
+# This class for paddle setting
 class Paddle(Turtle):
 
     def __init__(self, position):
