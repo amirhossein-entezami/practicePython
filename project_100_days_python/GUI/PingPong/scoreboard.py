@@ -27,4 +27,4 @@ class Scoreboard(Turtle):
         self.r_score += 1
         self.update_scoreboard()
         
-        
+    
