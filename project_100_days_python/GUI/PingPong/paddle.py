@@ -19,3 +19,5 @@ class Paddle(Turtle):
         new_y = self.ycor() - 20
         self.goto(self.xcor(), new_y)
     
+    
+# test1 , test2 , test 3 , test4 , test 5, test 6 , test7 , test8
