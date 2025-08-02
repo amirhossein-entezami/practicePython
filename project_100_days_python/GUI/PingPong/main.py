@@ -48,4 +48,3 @@ while game_is_on:
 # end of the program
 screen.exitonclick()
 
-# detected
