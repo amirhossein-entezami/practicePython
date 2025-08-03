@@ -47,5 +47,3 @@ while game_is_on:
 
 # end of the program
 screen.exitonclick()
-
-# test1 test2 
