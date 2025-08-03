@@ -1,7 +1,7 @@
-from turtle import screen, Turtle
+from turtle import Screen
 from paddle import Paddle
 from ball import Ball 
-from scoreboard import Coreboard
+from scoreboard import Scoreboard
 import time
 
 screen = Screen()
