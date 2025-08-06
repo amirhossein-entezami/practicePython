@@ -6,3 +6,5 @@ receive_height = float(input("Please import your height in centimeter: "))
 bmi = int(receive_weight / (receive_height ** 2))
 
 print(f"Your bmi is {bmi}") #show your bmi
+
+# test 1 2 3
