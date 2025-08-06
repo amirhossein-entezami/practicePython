@@ -12,4 +12,4 @@ bill_person = round(total_bill / receive_people)
 final_bill = (bill_person, 2)
 print(f"Each person should pay: ${final_bill}")
 
-# test  1 2 3 4 5 
+# test  1 2 3 4
