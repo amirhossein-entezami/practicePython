@@ -11,3 +11,5 @@ total_bill = receive_bill + count_bill
 bill_person = round(total_bill / receive_people)
 final_bill = (bill_person, 2)
 print(f"Each person should pay: ${final_bill}")
+
+# 1 2 3 4 5 6 7 8
