@@ -13,4 +13,3 @@ with open("test.txt", mode="a") as file: # a -> append , w -> write
 # test
 # test
 # test
-# test
