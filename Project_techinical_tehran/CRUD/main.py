@@ -80,4 +80,3 @@ while True:
     elif press == "6":
         print("Exit!!!")
         break 
-# checked this file for 8
