@@ -32,4 +32,3 @@ if direction == "encode":
 elif direction == "decode":
     pass
 
-# test 8
