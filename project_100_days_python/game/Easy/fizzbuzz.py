@@ -9,4 +9,3 @@ for fizzbuzz in range(1, 101):
     else:
         print("FizzBuzz") #if we don't have anything we choose this option
         
-# test 8 7 6 5 4 3 2 
