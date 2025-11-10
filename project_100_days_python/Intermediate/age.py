@@ -7,4 +7,4 @@ week = remaining_age * 52
 month = remaining_age * 12
 
 print(f"Your age left in day is: {day} and in week is {week} and in month is {month}!")
-# test 8 7 6 5 4 3 2 1
+# test 8 7 6 5 4 3 2
