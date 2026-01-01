@@ -7,4 +7,4 @@ num_3 = int(input("enter add 3: "))
 
 avg = (num_1 + num_2 + num_3) / 3
 print(f"Miangin = {round(avg)}")
-# test 10 9 8 7 6 5 4 3 2 1
+# test 10 9 8 7 6 5 4 3
