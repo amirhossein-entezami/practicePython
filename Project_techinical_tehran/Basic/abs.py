@@ -11,5 +11,5 @@ receive_user = int(input("ye add vared kon ghdr motlagh bedam: "))
 
 """ Way 2 """
 print(abs(receive_user))
-# test 8 7 6 5 4 3 2
+# test 8 7 6 5 4 3
 
