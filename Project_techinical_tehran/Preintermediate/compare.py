@@ -4,4 +4,4 @@ recive = int(input("ye add vared kon maghsom allyehasho behet bedam: "))
 for i in range(1, recive):
     if recive % i == 0:
         print(i)
-# tst 1 2 3 4 5
+# tst 1 2 3 4
