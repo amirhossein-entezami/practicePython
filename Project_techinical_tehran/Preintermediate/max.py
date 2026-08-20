@@ -7,6 +7,7 @@ for i in range(10):
     num = int(input(f"number {add}: "))
     add += 1
     if num > max:
-        max = num
+        max = max(max, num)
+        
 print(f"maximum -> {max}")
 # check 5 4 3 2
