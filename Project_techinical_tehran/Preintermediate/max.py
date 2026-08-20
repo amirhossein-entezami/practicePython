@@ -9,4 +9,4 @@ for i in range(10):
     if num > max:
         max = num
 print(f"maximum -> {max}")
-# check 5 4 3 2 1
+# check 5 4 3 2
