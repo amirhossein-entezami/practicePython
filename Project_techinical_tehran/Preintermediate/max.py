@@ -10,4 +10,4 @@ for i in range(10):
         max = max(max, num)
         
 print(f"maximum -> {max}")
-# test 5 4
+# test 5
