@@ -22,4 +22,3 @@ for i in range (len(receive_user)):
         # print(receive_user[i:receive_tekrar + i])
         final_word += harf + " "
 print(final_word)
-# test 5
