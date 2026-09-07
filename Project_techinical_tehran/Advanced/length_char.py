@@ -21,4 +21,4 @@ for i in range (len(receive_user)):
     else:
         # print(receive_user[i:receive_tekrar + i])
         final_word += harf + " "
-print(final_word)
+# print(final_word) 5 4 3 2 1
